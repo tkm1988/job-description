@@ -8,7 +8,7 @@ Deploy your own Gatsby project, along with Serverless Functions, with Vercel.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/gatsby&template=gatsby)
 
-_Live Example: https://gatsby.vercel.app_
+_Live Example: <https://gatsby.vercel.app>_
 
 ## Running Locally
 
@@ -17,12 +17,12 @@ _Live Example: https://gatsby.vercel.app_
 To run your Gatsby application and your API Route, you'll need to use the [Vercel CLI](https://vercel.com/cli):
 
 ```shell
-$ npm i -g vercel
-$ vercel
+npm i -g vercel
+vercel
 ```
 
 Alternatively, you can remove the API and just use Gatsby:
 
 ```shell
-$ yarn develop
+yarn develop
 ```

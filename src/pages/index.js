@@ -1,16 +1,16 @@
-import React, { useEffect, useState } from 'react';
-import '../styles/index.css';
+import React, { useEffect, useState } from 'react'
+import '../styles/index.css'
 
 function Index() {
-  const [date, setDate] = useState(null);
+  const [date, setDate] = useState(null)
   useEffect(() => {
     async function getDate() {
-      const res = await fetch('/api/date');
-      const newDate = await res.text();
-      setDate(newDate);
+      const res = await fetch('/api/date')
+      const newDate = await res.text()
+      setDate(newDate)
     }
-    getDate();
-  }, []);
+    getDate()
+  }, [])
 
   return (
     <main>
@@ -36,8 +36,8 @@ function Index() {
         </a>{' '}
         is a <a href="https://www.gatsbyjs.org/">Gatsby</a> app with two
         directories, <code>/src</code> for static content and <code>/api</code>{' '}
-        which contains a serverless{' '}
-        <a href="https://nodejs.org/en/">Node.js</a> function. See{' '}
+        which contains a serverless <a href="https://nodejs.org/en/">Node.js</a>{' '}
+        function. See{' '}
         <a href="/api/date">
           <code>api/date</code> for the Date API with Node.js
         </a>
@@ -47,7 +47,7 @@ function Index() {
       <h2>The date according to Node.js is:</h2>
       <p>{date ? date : 'Loading date...'}</p>
     </main>
-  );
+  )
 }
 
-export default Index;
+export default Index
