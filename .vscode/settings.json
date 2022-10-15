@@ -8,6 +8,10 @@
   "eslint.format.enable": false,
   "eslint.packageManager": "yarn",
   "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -20,10 +24,14 @@
   "[react]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll.stylelint": true
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
+  "markdownlint.config": {
+    "MD033": false
+  },
+  "textlint.languages": ["markdown", "plaintext"],
+  "textlint.autoFixOnSave": true,
   "css.validate": false,
   "scss.validate": false,
   "todo-tree.general.tags": [
@@ -98,5 +106,5 @@
       "color": "red"
     }
   ],
-  "cSpell.words": []
+  "cSpell.words": ["textlint", "wantedly"]
 }
