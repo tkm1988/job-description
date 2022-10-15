@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "taichi.vscode-textlint",
+    "aaron-bond.better-comments",
+    "yzhang.markdown-all-in-one",
+    "stylelint.vscode-stylelint",
+    "davidanson.vscode-markdownlint",
+    "streetsidesoftware.code-spell-checker",
+    "ms-ceintl.vscode-language-pack-ja",
+    "shd101wyy.markdown-preview-enhanced",
+    "esbenp.prettier-vscode"
+  ]
+}
