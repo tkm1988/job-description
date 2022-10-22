@@ -1,5 +1,8 @@
-main {
+html,
+body #___gatsby {
+  width: 100%;
   max-width: 38rem;
+  height: 100%;
   padding: 2rem;
   margin: auto;
 }
