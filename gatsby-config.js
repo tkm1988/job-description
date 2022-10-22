@@ -1,11 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `職務経歴書`,
-    siteUrl: `https://job-description-iota.vercel.app/`,
     description: `片ノ坂 卓磨の職務経歴書`,
-  },
-  flags: {
-    DEV_SSR: true,
+    twitterUsername: `@tkm1988`,
+    siteUrl: `https://job-description-iota.vercel.app/`,
   },
   plugins: [
     {
