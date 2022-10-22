@@ -1,8 +1,12 @@
 html,
-body #___gatsby {
+body {
   width: 100%;
-  max-width: 38rem;
   height: 100%;
-  padding: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+article {
+  padding: 1rem;
   margin: auto;
 }
